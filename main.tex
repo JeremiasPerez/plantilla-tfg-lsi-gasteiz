@@ -47,10 +47,18 @@
 \listoftables
 \clearpage
 {\let\newpage\relax\listofalgorithms} % Lista de algoritmos
+% \clearpage
+% {\let\newpage\relax\printglossary[title=\glossarylabel]} % Glosario
+% \clearpage
+% {\let\newpage\relax\printglossary[title=\acronymslabel,type=\acronymtype]} % Acrónimos
 \clearpage
-{\let\newpage\relax\printglossary[title=\glossarylabel]} % Glosario
+\phantomsection
+\addcontentsline{toc}{chapter}{\glossarylabel}
+{\let\newpage\relax\printglossary[title=\glossarylabel]}
 \clearpage
-{\let\newpage\relax\printglossary[title=\acronymslabel,type=\acronymtype]} % Acrónimos
+\phantomsection
+\addcontentsline{toc}{chapter}{\acronymslabel}
+{\let\newpage\relax\printglossary[type=\acronymtype,title=\acronymslabel]}
 \clearpage
 
 
