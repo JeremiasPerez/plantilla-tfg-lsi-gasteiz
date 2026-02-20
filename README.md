@@ -2,7 +2,7 @@
 Este repositorio contiene una plantilla de LaTeX para redactar la memoria del TFG. Básicamente, es una adaptación de [la plantilla existente en la Facultad de Informática de Donostia](https://www.overleaf.com/latex/templates/ifdissertation/yrkggnttrfjn), con alguna que otra modificación, especialmente para adecuarla a los requisitos de la Escuela de Ingeniería de Vitoria-Gasteiz.
 
 ## ¿Cómo usar la plantilla?
-Puedes usar la plantilla tanto con un editor local (por ejemplo, TeXstudio o TeXmaker) o con editores online como Overleaf.
+Puedes usar la plantilla tanto con un editor local (por ejemplo, TeXstudio o TeXmaker), con editores online como Overleaf, o en VS Code.
 
 ### Usar la plantilla en Overleaf
 [Overleaf](https://www.overleaf.com/) es un editor online de LaTex. Al ser un editor online, no requiere instalar ningún software. En su plan gratuito, Overleaf permite que los proyectos tengan hasta 2 colaboradores.
@@ -19,6 +19,22 @@ Pasos para usar la plantilla:
 2. Descomprime el zip
 3. Abre el fichero main.tex con tu editor favorito
 4. Compílalo usando XeLaTeX
+
+### Usar la plantilla en VS Code
+Puedes usar la plantilla en VS Code a través de un contenedor Docker, sin necesidad de instalar LaTeX en tu sistema. La configuración del entorno está definida en la carpeta .devcontainer.
+
+Requisitos:
+* Instalar Docker Desktop
+* Instalar VS Code
+* Instalar extensión Dev Containers en VS Code
+
+Pasos para usar la plantilla:
+1. Clonar o descargar este repositorio
+2. Abrir Docker Desktop
+3. Abrir la carpeta del proyecto en VS Code (detectará automáticamente .devcontainer)
+4. Cuando aparezca el aviso, haz clic en "Reopen in Container"
+5. Espera a que se construya el entorno (solo la primera vez)
+6. Abre el fichero main.tex y genera el PDF haciendo clic en ► (Build LaTeX project). El entorno incluye la extensión LaTeX Workshop para trabajar con LaTeX
 
 ## Estructura de la plantilla
 Esta es la estructura de la plantilla:
