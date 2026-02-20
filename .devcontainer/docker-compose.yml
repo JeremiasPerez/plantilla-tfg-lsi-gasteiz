@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  latex:
+    image: mrchoke/texlive:2024
+    container_name: latex-dev
+    working_dir: /work
+    volumes:
+      - ..:/work:cached
+    command: sleep infinity
+    environment:
+      - TZ=Europe/Madrid
