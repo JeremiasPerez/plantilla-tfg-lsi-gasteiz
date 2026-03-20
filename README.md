@@ -60,5 +60,5 @@ Esta es la estructura de la plantilla:
 **Nota:** esta estructura es sólo una referencia. Dependiendo del tipo de trabajo, puede que no todos los capítulos tengan sentido. **Consúltalo con tu director**.
 
 ## Materiales adicionales
-- [RepoSearch](https://reposearch.coddii.org/): un repositorio con TFGs de informática a nivel estatal. Puede servirte como referencia para hacerte una idea de temáticas, estructura, etc. Desarrollado por [Juanan Pereira](github.com/juananpe).
+- [RepoSearch](https://reposearch.coddii.org/): un repositorio con TFGs de informática a nivel estatal. Puede servirte como referencia para hacerte una idea de temáticas, estructura, etc. Desarrollado por [Juanan Pereira](https://github.com/juananpe).
 - [Latex table generator](https://www.tablesgenerator.com/): crear tablas en LaTeX tocando el código fuente es un poco farragoso. La mayor parte de editores cuentan con opciones para facilitar su creación. Webs como ésta lo ponen más fácil: ofrecen un editor visual para crearlas fácilmente y generar el código LaTeX.
